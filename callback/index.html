@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer">
+<title>Frunk login</title>
+</head>
+<body>
+<p>서버로 이동 중…</p>
+<script>
+  // Tesla가 터널 도메인(ts.net)을 redirect URI로 받지 않아서, 여기서 받은 code/state를 내 서버로 그대로 넘긴다.
+  location.replace('https://desktop-sgigusd.tail3b9c42.ts.net/callback' + location.search);
+</script>
+</body>
+</html>
